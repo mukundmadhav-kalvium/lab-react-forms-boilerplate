@@ -119,7 +119,7 @@ const Forms = () => {
           <label>Phone:</label>
           <input type="number" name="phone" onChange={handleInputChange} />
           {formError.phone && <p className="error">{formError.phone}</p>}
-          <input type="submit" value={"Register"} onClick={formSubmitHandler} />
+          <input type="submit" value={"Register"}/>
         </form>
       </fieldset>
     </div>
